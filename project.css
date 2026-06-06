@@ -1,0 +1,72 @@
+    /* PROJECT PAGE */
+    
+    body {
+        background-color: #090941;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2% 6%;
+    }
+    
+    .logo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    span {
+        color: #fc04a9;
+    }
+    
+    .navbar ul {
+        text-align: right;
+    }
+    
+    .navbar ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 8px 12px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    
+    nav a:hover {
+        color: hotpink;
+    }
+    
+    .projects {
+        width: 85%;
+        margin: 50px;
+    }
+    
+    .projects h1 {
+        color: hotpink;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .project-card:hover {
+        transform: translateY(-5PX);
+    }
+    
+    .project-card h2 {
+        color: hotpink;
+        margin-bottom: 10px;
+    }
+    
+    .project-card p {
+        color: white;
+        line-height: 1.6;
+        font-size: 18px;
+    }
